@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">M Sai Krishna</a> <!-- Your home page -->
+
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home">
+        <div class="home-img">
+            <img src="main1.jpeg" alt="Profile Image">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Sai Krishna</span></h1>
+            <h3 class="typing-text">I'm a <span id="words"></span></h3>
+            <p>Dynamic Data Science student adept in leveraging cutting- edge technologies to extract actionable insights
+                from complex datasets. Skilled in Python, C, and SQL. Strong problem-solving abilities with a passion for
+                innovation and continuous learning. Seeking opportunities to apply expertise in real-world scenarios.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/msai-krishna/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/saikrishna22000" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/msaikrishna117" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/mr_sai_krishna01/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="mailto:2200039117cser@gamil.com" class="btn">Hire me</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Services</h2>
+        <div class="service-container">
+            <div class="service-box">
+                <i class="fa fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Building responsive and interactive websites with modern technologies...</p>
+            </div>
+            <div class="service-box">
+                <i class="fa fa-cloud"></i>
+                <h3>Cloud Solutions</h3>
+                <p>Designing and deploying cloud architectures for scalable applications.</p>
+            </div>
+            <div class="service-box">
+                <i class="fa fa-lock"></i>
+                <h3>Cloud Security</h3>
+                <p>Ensuring secure cloud environments to protect business data.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming Languages :</strong> Java, Python, C, React</li>
+            <li><strong>Web Technologies :</strong> HTML, CSS, JavaScript, JSP, Servlets</li>
+            <li><strong>Cloud :</strong> AWS,Cloud Architecting</li>
+            <li><strong>Database :</strong> MySQL, MongoDB</li>
+            <li><strong>Tools :</strong> Maven, Git</li>
+        </ul>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-container">
+            <div class="education-box">
+                <h3>Bachelor's in Computer Science</h3>
+                <p>K L University, 2023 - 2026</p>
+                <p><strong>Relevant coursework:</strong> Data Structures, Cloud Computing, Web Development,Data Science</p>
+            </div>
+
+            <div class="education-container">
+                <div class="education-box">
+                    <h3>CCBP 4.0 Program Overview</h3>
+                    <p>NxtWave-4.0, 2024-2027</p>
+                    <p><strong>Relevant Coursework:</strong> Data Structures, Cloud Computing, Web Development, Data Science, AI, and Machine Learning</p>
+
+                    <style>
+                        .certifications-list,
+                        .skills-list {
+                            font-size: 1.8em;
+                            /* Adjust the size as needed, e.g., 1.2em for slightly larger text */
+                            line-height: 1.5;
+                        }
+                    </style>
+
+                    <ul class="certifications-list">
+                        <li><strong>Build Static and Responsive Websites:</strong> HTML, CSS, Bootstrap basics for creating and sharing static and responsive sites.</li>
+                        <li><strong>Programming and Databases:</strong> Python programming foundations, SQL for database management and queries.</li>
+                        <li><strong>Dynamic Web Applications:</strong> JavaScript for interactive apps, Flexbox for responsive layouts.</li>
+                        <li><strong>Full Stack Development:</strong> Core JavaScript, Node.js backend, and React front-end development.</li>
+                        <li><strong>Data Structures & Algorithms:</strong> Fundamentals and advanced DSA skills for problem-solving.</li>
+                        <li><strong>Data Science Foundations:</strong> Descriptive Statistics, EDA, Probability, and Distributions in Python.</li>
+                    </ul>
+
+
+
+                </div>
+                <div class="education-box">
+                    <h3>Certifications</h3>
+
+                    <style>
+                        .Certificate {
+                            list-style-type: none;
+                            padding: 0;
+                        }
+
+                        .Certificate li {
+                            margin: 10px 0;
+                            font-size: 1.1em;
+                        }
+
+                        .verify-badge {
+                            background-color: #0073e6;
+                            /* Blue background */
+                            color: white;
+                            padding: 4px 10px;
+                            font-size: 0.85em;
+                            border-radius: 12px;
+                            margin-left: 10px;
+                            text-decoration: none;
+                            display: inline-flex;
+                            align-items: center;
+                            transition: background-color 0.3s ease;
+                            font-weight: bold;
+                        }
+
+                        .verify-badge:hover {
+                            background-color: #005bb5;
+                        }
+
+                        .verify-badge i {
+                            margin-right: 6px;
+                            font-size: 1.1em;
+                        }
+                    </style>
+
+                    <ul class="Certificate">
+                        <li>Cloud Foundations
+                            <a href="https://www.credly.com/badges/d7904304-a8cb-4966-b597-21ecba123bc2/public_url" class="verify-badge">
+                                <i>&#128279;</i> Verify Credentials
+                            </a>
+                        </li>
+                        <li>Academy Data Engineering
+                            <a href="https://www.credly.com/badges/1455aa46-a7aa-4076-9103-eecffbce202d/public_url" class="verify-badge">
+                                <i>&#128279;</i> Verify Credentials
+                            </a>
+                        </li>
+                        <li>AWS Cloud Practitioner
+                            <a href="https://www.credly.com/badges/5a0ef472-f2e0-4f2c-bed1-486055fff0b7/public_url" class="verify-badge">
+                                <i>&#128279;</i> Verify Credentials
+                            </a>
+                        </li>
+                        <li>Salesforce AI Associate
+                            <a href="https://trailhead.salesforce.com/en/credentials/verification/" class="verify-badge">
+                                <i>&#128279;</i> Verify Credentials
+                            </a>
+                        </li>
+                        <li>Fintech Professional Certificate</li>
+                        <li>PMKVY Software Programmer: Python</li>
+                    </ul>
+
+
+                </div>
+            </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience-container">
+
+            <div class="experience-box">
+                <h3>Data Engineering Virtual Internship</h3>
+                <p>AICTE EduSkills jan-mar-(2024)</p>
+                <p>Developed gaining hands-on experience in data and cloud technologies.</p>
+            </div>
+            <div class="experience-box">
+                <h3>Java Full Stack Developer Virtual Internship</h3>
+                <p>AICTE EduSkills jul-sep-(2024)</p>
+                <p>Passionate Java Full Stack Developer intern with hands-on experience in building dynamic web applications using Java, Spring Boot, RESTful APIs, and front-end technologies like HTML, CSS, and JavaScript. Eager to contribute strong programming and problem-solving skills to a collaborative development team.</p>
+            </div>
+            <div class="experience-box">
+                <h3>AI-ML Virtual Internship</h3>
+                <p>AICTE EduSkills april-jun-(2024)</p>
+                <p>Enthusiastic AI/ML virtual intern with foundational knowledge in machine learning algorithms, data analysis, and Python programming. Skilled in leveraging AI techniques to solve complex problems, with hands-on experience in building and evaluating predictive models. Eager to apply analytical and programming expertise to real-world AI/ML projects.</p>
+            </div>
+            
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me through the following platforms:</p>
+        <ul>
+            <a href="https://www.linkedin.com/in/msai-krishna/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/saikrishna22000" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://x.com/msaikrishna117" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/mr_sai_krishna01/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+
+            <a href="mailto:2200039117cser@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            <p><strong>Phone No:</strong> 9966539945</p>
+
+
+        </ul>
+    </section>
+
+</body>
+
+</html>
